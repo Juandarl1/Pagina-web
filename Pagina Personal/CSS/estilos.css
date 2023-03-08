@@ -1,11 +1,18 @@
 * {
     margin: 0px;
-    padding: 0px;
+    padding: 1px;
 }
 
 body {
     background: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
+}
+
+p{
+    background-color:rgb(119, 39, 39);
+    display: flex;
+    justify-content:space-around;
+    padding: 2px;
 }
 
 #contenedor {
@@ -15,19 +22,20 @@ body {
     margin-bottom: 20px;
     border-radius: 20px;
     overflow: hidden;
-    font-style: arial;
+    font-style: italic;
+    font-size: medium;
 }
 
 header {
     height: 150px;
-    background: rgb(131, 131, 131);
-}
+    background-image: linear-gradient(135deg, #9966bb 0%, #5a3c85 100%);}
 
 header h1 {
     font-size: 50px;
     text-align: center;
     line-height: 150px;
     font-style: arial;
+    
 }
 
 nav {
@@ -59,7 +67,8 @@ nav ul a:hover {
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    font-style: arial;
+    justify-content: space-around;
+    padding:0px;
 }
 
 #contenido h2 {
@@ -70,17 +79,22 @@ nav ul a:hover {
 }
 
 aside {
-    width: 250px;
+    width: 240px;
     height: 500px;
     background: rgb(119, 39, 39);
     margin-top: 10px;
     float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
 
 #mision {
     background: rgb(168, 156, 156);
     color: rgb(0, 0, 0);
     height: 250px;
+    padding: 1px;
+    margin: auto;
 }
 
 
@@ -88,6 +102,7 @@ aside {
     background: rgb(168,156,156);
     color: rgb(0, 0, 0);
     height: 250px;
+    display: flex;
 }
 
 
